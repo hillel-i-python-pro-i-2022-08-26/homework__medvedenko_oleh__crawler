@@ -1,0 +1,11 @@
+# Core
+aiohttp==3.8.3
+beautifulsoup4 == 4.11.1
+brotlipy==0.7.0
+lxml==4.9.2
+
+# Code formatting
+black==22.12.0
+flake8==6.0.0
+pre-commit==2.21.0
+pyupgrade==3.3.1
