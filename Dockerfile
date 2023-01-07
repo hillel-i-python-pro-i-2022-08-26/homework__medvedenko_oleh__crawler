@@ -7,6 +7,15 @@ ARG USER=user
 
 WORKDIR ${WORKDIR}
 
+FROM python:3.10
+
+ARG PYTHONUNBUFFERED=1
+
+ARG WORKDIR=/workdir
+ARG USER=user
+
+WORKDIR ${WORKDIR}
+
 RUN useradd --system ${USER} && \
     chown --recursive ${USER} ${WORKDIR}
 

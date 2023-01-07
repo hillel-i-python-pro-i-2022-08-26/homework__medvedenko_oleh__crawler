@@ -1,8 +1,8 @@
-version: "3.8"
+version: '3.8'
 
 services:
-  combinator:
+  scraper:
     build: .
     volumes:
-      - ./words_storage:/workdir/words_storage:rw
+      - ./links_storage:/workdir/links_storage:rw
     user: "1000"
