@@ -8,4 +8,3 @@
 ▶️ To install and run: <code>make d-homework-i-run</code><br />
 ❌ To purge: <code>d-homework-i-purge</code></li>
 
-To generate amount of users: <code>users/?amount=int</code>
