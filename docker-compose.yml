@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    volumes:
+      - ./links_storage:/workdir/links_storage:rw
+    user: "1000"
